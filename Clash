@@ -18,7 +18,11 @@
 
  ;设置规则标志位 
 
- ;ruleset=🎯 国内流量,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Inside.list 
+ ruleset=🎯 国内流量,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Inside.list 
+
+ ruleset=🎯 国内流量,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt
+
+ ruleset=🚀 国外流量,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/tld-not-cn.txt
 
  ruleset=🚀 国外流量,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Outside.list 
 
@@ -27,6 +31,16 @@
  ruleset=🎯 国内流量,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list 
 
  ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list 
+
+ ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+
+ ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
+
+ ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
+
+ ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
+
+ ruleset=🛑 广告拦截,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/reject.txt
 
  ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list 
 
@@ -40,7 +54,11 @@
 
  ruleset=📢 谷歌FCM,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list 
 
+ ruleset=📢 谷歌FCM,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/google.txt
+
  ruleset=🎯 国内流量,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list 
+
+ ruleset=🎯 国内流量,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt
 
  ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list 
 
@@ -48,7 +66,11 @@
 
  ruleset=🍎 苹果服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list 
 
+ ruleset=🍎 苹果服务,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/apple.txt
+
  ruleset=📲 Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list 
+
+ ruleset=📲 Telegram,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/telegramcidr.txt
 
  ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list 
 
@@ -101,11 +123,9 @@
   
 
  ;设置分组标志位 
-
  
-
  
-
+ 
  custom_proxy_group=🚀 全局选择`select`[]♻️ 自动选择`[]🔯 故障转移`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3`[]🚀🇨🇳 国内手切`[]🎯 国内流量`[]🚀 国外流量
 
  custom_proxy_group=🚀 手动选择1`select`.* 
