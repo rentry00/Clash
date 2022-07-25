@@ -18,14 +18,6 @@
 
  ;设置规则标志位 
 
- ruleset=🎯 国内流量,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Inside.list 
-
- ruleset=🎯 国内流量,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt
-
- ruleset=🚀 国外流量,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/tld-not-cn.txt
-
- ruleset=🚀 国外流量,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Outside.list 
-
  ruleset=🎯 国内流量,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list 
 
  ruleset=🎯 国内流量,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list 
@@ -44,11 +36,7 @@
 
  ruleset=📢 谷歌FCM,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list 
 
- ruleset=📢 谷歌FCM,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/google.txt
-
  ruleset=🎯 国内流量,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list 
-
- ruleset=🎯 国内流量,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt
 
  ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list 
 
@@ -56,11 +44,7 @@
 
  ruleset=🍎 苹果服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list 
 
- ruleset=🍎 苹果服务,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/apple.txt
-
  ruleset=📲 Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list 
-
- ruleset=📲 Telegram,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/telegramcidr.txt
 
  ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list 
 
@@ -105,6 +89,16 @@
  ruleset=🎯 国内流量,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list 
 
  ruleset=🎯 国内流量,[]GEOIP,CN 
+ 
+ ruleset=🇨🇳 国内购物,https://raw.githubusercontent.com/hlxvvv/clash/main/rule/xianyu.list
+
+ ruleset=🇨🇳 国内购物,https://raw.githubusercontent.com/hlxvvv/clash/main/rule/Alibaba.list
+
+ ruleset=🇨🇳 国内购物,https://raw.githubusercontent.com/hlxvvv/clash/main/rule/jingdong.list
+ 
+ ruleset=Speedtest,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Speedtest/Speedtest.list
+ 
+ ruleset=🚀 全局选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 
  ruleset=🐟 漏网之鱼,[]FINAL 
 
@@ -166,6 +160,10 @@
 
  custom_proxy_group=📲 Telegram`select`[]🚀 国外流量`[]🎯 国内流量`[]🚀🇨🇳 国内手切``[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3 
 
+ custom_proxy_group=Speedtest`select`♻️ 自动选择`[]🚀🇨🇳 国内手切`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3`[]DIRECT
+ 
+ custom_proxy_group=🇨🇳 国内购物`select`[]♻️🇨🇳 国内节点`[]🚀🇨🇳 国内手切`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3`[]DIRECT
+ 
  custom_proxy_group=📢 谷歌FCM`select`[]🎯 国内流量`[]🚀🇨🇳 国内手切`[]🚀 国外流量``[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3 
 
  custom_proxy_group=Ⓜ️ 微软云盘`select`[]🎯 国内流量`[]🚀🇨🇳 国内手切`[]🚀 国外流量`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动选择1`[]🚀 手动选择2`[]🚀 手动选择3 
