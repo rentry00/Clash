@@ -22,15 +22,23 @@
 
  ruleset=🎯 国内流量,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list 
 
- ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list 
+ ruleset=🛑 广告拦截,https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list 
 
- ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+ ruleset=🛑 广告拦截,https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list 
 
- ruleset=🛑 广告拦截,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/reject.txt
+ ruleset=🛑 广告拦截,https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list 
 
+ ruleset=🛑 广告拦截,https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list 
+
+ ruleset=🛑 广告拦截,https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list 
+
+ ruleset=🛑 广告拦截,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml 
+
+ ruleset=🛑 广告拦截,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Domain.yaml 
+
+ ruleset=🛑 广告拦截,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingTest/AdvertisingTest.yaml 
+ 
  ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list 
-
- ruleset=🆎 AdBlock,https://cdn.jsdelivr.net/gh/Semporia/Clash-X@master/Filter/AdBlock.yaml 
 
  ruleset=🛡️ 隐私防护,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list 
 
@@ -46,12 +54,14 @@
 
  ruleset=📲 Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list 
 
- ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list 
+ ruleset=🎮 游戏平台,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Epic/Epic.yaml 
 
- ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list 
+ ruleset=🎮 游戏平台,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Battle/Battle.yaml 
 
- ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list 
+ ruleset=🎮 游戏平台,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml 
 
+ ruleset=🎮 游戏平台,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/EA/EA.yaml
+ 
  ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list 
 
  ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetflixIP.list 
